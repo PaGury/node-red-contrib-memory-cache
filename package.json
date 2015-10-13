@@ -1,0 +1,16 @@
+{
+    "name": "node-red-contrib-memory-cache",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "dependencies": {},
+    "keywords": [
+        "node-red"
+    ],
+    "node-red": {
+        "nodes": {
+            "MemoryCache In": "MemoryCache In.js",
+            "MemoryCache Out": "MemoryCache Out.js"
+        }
+    }
+}

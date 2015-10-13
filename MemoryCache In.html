@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('MemoryCache In',{
+        category: 'function',
+        color: '#888888',
+        inputs:1,
+        outputs:1,
+        defaults: {
+            cacheKey: { value: "" }
+        },
+        label: function() {
+            return this.name||"Memory cache";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="MemoryCache In">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-cacheKey">Key</label>
+        <input type="text" id="node-input-cacheKey" placeholder="Key">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="MemoryCache In">
+    <p>Description</p>
+</script>
